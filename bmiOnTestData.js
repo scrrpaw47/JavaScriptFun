@@ -1,19 +1,19 @@
 // ----- Test Data 1 -----
-var massMark = 78;      // Mark's mass in kg
-var heightMark = 1.69;  // Mark's height in meters
-var massJohn = 92;      // John's mass in kg
-var heightJohn = 1.95;  // John's height in meters
+const massMark = 78;      // Mark's mass in kg
+const heightMark = 1.69;  // Mark's height in meters
+const massJohn = 92;      // John's mass in kg
+const heightJohn = 1.95;  // John's height in meters
 
 // Calculate BMIs using the formula: BMI = mass / (height * height)
-var BMIMark = massMark / (heightMark * heightMark);
-var BMIJohn = massJohn / (heightJohn * heightJohn);
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
 
 // Log the BMIs to the console
 console.log("Mark's BMI:", BMIMark);
 console.log("John's BMI:", BMIJohn);
 
 // BONUS: Create a boolean variable for whether Mark has a higher BMI than John
-var markHigherBMI = BMIMark > BMIJohn;
+const markHigherBMI = BMIMark > BMIJohn;
 console.log("Does Mark have a higher BMI than John?", markHigherBMI);
 
 // ----- Test Data 2 -----
